@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+        <p class="subtitle">Beautiful collection of images</p>
+    </header>
+
+    <main>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="urban">Urban</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop" alt="Mountain landscape">
+                <div class="overlay">
+                    <h3>Mountain Vista</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop" alt="Forest path">
+                <div class="overlay">
+                    <h3>Forest Path</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="urban">
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=400&fit=crop" alt="City skyline">
+                <div class="overlay">
+                    <h3>City Lights</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1557672172-298e090d0f80?w=400&h=400&fit=crop" alt="Abstract art">
+                <div class="overlay">
+                    <h3>Abstract Dreams</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=400&h=400&fit=crop" alt="Ocean waves">
+                <div class="overlay">
+                    <h3>Ocean Waves</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="urban">
+                <img src="https://images.unsplash.com/photo-1514306688772-cfb0d8b5b5a0?w=400&h=400&fit=crop" alt="Street photography">
+                <div class="overlay">
+                    <h3>Urban Life</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1549887534-7e0371a97c4e?w=400&h=400&fit=crop" alt="Geometric shapes">
+                <div class="overlay">
+                    <h3>Geometric Art</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop" alt="Sunset">
+                <div class="overlay">
+                    <h3>Golden Hour</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Image Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
